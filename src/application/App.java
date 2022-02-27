@@ -8,8 +8,9 @@ public class App {
 		 */
 		Thermostat stat = new Thermostat();
 		try {
-		stat.setTemperature(70);
+		stat.setTemperature(-20);
 		} catch(Exception e) {
+			e.printStackTrace();
 			System.out.println(e.getMessage());
 		}
 
