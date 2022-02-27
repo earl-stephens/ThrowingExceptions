@@ -7,7 +7,11 @@ public class App {
 		 * or have a try catch
 		 */
 		Thermostat stat = new Thermostat();
+		try {
 		stat.setTemperature(70);
+		} catch(Exception e) {
+			System.out.println(e.getMessage());
+		}
 
 	}
 
