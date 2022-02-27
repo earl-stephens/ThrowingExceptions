@@ -12,6 +12,11 @@ public class Thermostat {
 			//can make custom exceptions
 			throw new Exception("Temperature out of range"); 
 		}
-		System.out.println("Setting temperature to " + temperature);
+		/*
+		So you have to keep the throws Exception in the method
+		declaration, and in the App main method is where you call
+		the try catch.
+		*/
+		
 	}
 }
